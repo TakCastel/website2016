@@ -1,0 +1,17 @@
+{
+  "name": "takcastel.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "pug index.pug -w"
+  },
+  "author": "takcastel",
+  "license": "ISC",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

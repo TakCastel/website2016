@@ -1,0 +1,127 @@
+doctype html
+html(lang="en")
+head
+	meta(charset="utf-8")
+	meta(http-equiv="X-UA-Compatible" content="IE=edge")
+	meta(name="viewport" content="width=device-width, initial-scale=1")
+
+	meta(property="og:image" content="http://takcastel.com/img/facebook-img.jpg")
+	meta(name="description" content="Mon site web personnel, où vous trouverez des informations sur mes projets, mes compétences et quelques extraits de mes textes.")
+	meta(name="keywords" content="tak, castel, tarik, talhaoui, portfolio, projets")
+
+	meta(name="author" content="TakCastel")
+	meta(name="category" content="Website")
+	meta(name="reply-to" content="takcastel@gmail.com")
+
+	link(rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css")
+	link(rel="stylesheet" href="css/font-awesome.min.css")
+	link(rel="stylesheet" href="css/custom.css")
+
+	link(href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css')
+	link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+	link(href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css')
+	script(src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js")
+
+	title Tak Castel | Website
+		
+body
+	header
+		nav.navbar.navbar-default.navbar-fixed-top
+			div.container-fluid
+				div.navbar-header
+					a.navbar-brand.page-scroll(href="#page-top") Tak Castel
+					button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false")
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+				div.collapse.navbar-collapse(id="menu-collapse")
+					ul.nav.navbar-nav
+						li
+							a.page-scroll(href="#skills") Skills
+						li
+							a.page-scroll(href="#projects") What I did
+						li
+							a.page-scroll(href="#contact") Contact me
+	div.container
+		section(id="page-top")
+			div.row
+				div.col-sm-7
+					h1 Tak Castel
+					h2 hi ! i like hardrock, belgium beer and coding
+					p I started a few months back to study on my own, following the OpenClassroom MOOC alongside my daily work at the mall. Eager to discover more and more, I am currently training myself into the Javascript and PHP/MySQL languages. I remain open to other programming languages or framework such as angulasJS, nodejs, symphony, python, ruby and more...
+					button.btn.btn-default.btn-md(aria-label="Github")
+						img(src="img/elements/github.svg" alt="Github")
+						span Github project
+				div.col-sm-5
+					img.profile-picture(src="img/elements/profile.svg" alt="Profile picture")
+				div.col-sm-12
+					a.arrow.bounce.page-scroll(href="#skills")
+		
+		section(id="skills")
+			div.row
+				div.col-sm-12
+					h3 A few skills
+				div.col-sm-2.col-sm-offset-1.col-xs-6
+					div.html.chart 
+						div.tag HTML / CSS
+				div.col-sm-2.col-sm-offset-2.col-xs-6
+					div.css.chart
+						div.tag Bootstrap
+				div.col-sm-2.col-sm-offset-2.col-xs-6
+					div.javascript.chart
+						div.tag Javascript
+				div.col-sm-2.col-sm-offset-1.col-xs-6
+					div.photoshop.chart 
+						div.tag Photoshop
+				div.col-sm-2.col-sm-offset-2.col-xs-6
+					div.illustrator.chart
+						div.tag Illustrator
+				div.col-sm-2.col-sm-offset-2.col-xs-6
+					div.php.chart
+						div.tag PHP / SQL
+
+				div.col-sm-4
+					img.skill-detail(src="img/elements/pen.svg")
+					p.text-center Always mark down every idea to keep track of progression
+				div.col-sm-4
+					img.skill-detail(src="img/elements/responsive.svg")
+					p.text-center Building responsive websites for all devices
+				div.col-sm-4
+					img.skill-detail(src="img/elements/coffee.svg")
+					p.text-center Needs coffee to load the batteries when involved in a huge project
+
+		section(id="projects")
+			div.row
+				div.col-sm-12
+					h3.background-inverse I've been busy on these
+				div.col-sm-5
+					div.project-block.fadeInUp-1(id='fadeInUp-initial-1')
+						h4 Star Wars Online Roleplay forum
+						span worked with the online roleplay game forum team to make one of the greatest french writting community around the Star Wars franchise
+				div.col-sm-5.col-sm-offset-2
+					div.project-block.fadeInUp-2(id='fadeInUp-initial-2')
+						h4 Age of Mythology scenario modding
+						span created one of the most downloaded map on this Microsoft video game with a rolepay game based on the ingame xml triggering and a pinch of resoursfulness
+				div.col-sm-5
+					div.project-block.fadeInUp-3(id='fadeInUp-initial-3')
+						h4 Boardgame roleplay
+						span made an entiere roleplay boardgame with some friends back in highschool and now is currently exporting to the web platform using nodejs 
+				div.col-sm-5.col-sm-offset-2
+					div.project-block.fadeInUp-4(id='fadeInUp-initial-4')
+						h4 Writting 
+						span working on a science-fiction novel about humanity spreading in the solar system and doing stuff and blahblahblah
+
+		section(id="contact")
+			div.row
+				div.col-sm-12
+					a.btn.btn-default(href="#" target="blank") Send a mail
+
+		a.back-to-top.page-scroll(href="#page-top")
+	
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+	script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous")
+	
+	script(src="js/scrolling-nav.js")
+	script(src="js/jquery.easing.min.js")
+	script(src="js/jquery.viewportchecker.min.js")
+	script(src="js/script.js")
