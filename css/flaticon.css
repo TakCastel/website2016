@@ -29,7 +29,7 @@
   margin-left: 20px;
 }
 
-.flaticon-facebook-logo-in-circular-button-outlined-social-symbol:before { content: "\f100"; }
-.flaticon-github-social-logo:before { content: "\f101"; }
-.flaticon-google-plus-circular-button:before { content: "\f102"; }
-.flaticon-twitter-circular-button:before { content: "\f103"; }
+.flaticon-facebook:before { content: "\f100"; }
+.flaticon-github:before { content: "\f101"; }
+.flaticon-google:before { content: "\f102"; }
+.flaticon-twitter:before { content: "\f103"; }

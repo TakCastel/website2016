@@ -1,4 +1,5 @@
 // CHARTS GRAPHICS FILLER
+
 $(document).ready(function(){
 	$('#skills').viewportChecker({
 		callbackFunction: function(elem, action){
@@ -76,34 +77,34 @@ $(document).ready(function(){
 					}
 
 					$('.html').percentPie({
-						width: 125,
+						width: 150,
 						trackColor: "#2e3546",
 						barColor: "#fff",
 						barWeight: 10,
-						endPercent: .95,
+						endPercent: 1,
 						fps: 60
 					});
 
 					$('.css').percentPie({
-						width: 125,
+						width: 150,
 						trackColor: "#2e3546",
 						barColor: "#fff",
 						barWeight: 10,
-						endPercent: .75,
+						endPercent: .90,
 						fps: 60
 					});
 
 					$('.javascript').percentPie({
-						width: 125,
+						width: 150,
 						trackColor: "#2e3546",
 						barColor: "#fff",
 						barWeight: 10,
-						endPercent: .25,
+						endPercent: .20,
 						fps: 60
 					});
 
 					$('.photoshop').percentPie({
-						width: 125,
+						width: 150,
 						trackColor: "#2e3546",
 						barColor: "#fff",
 						barWeight: 10,
@@ -112,16 +113,16 @@ $(document).ready(function(){
 					});
 
 					$('.illustrator').percentPie({
-						width: 125,
+						width: 150,
 						trackColor: "#2e3546",
 						barColor: "#fff",
 						barWeight: 10,
-						endPercent: .55,
+						endPercent: .66,
 						fps: 60
 					});
 
 					$('.php').percentPie({
-						width: 125,
+						width: 150,
 						trackColor: "#2e3546",
 						barColor: "#fff",
 						barWeight: 10,
@@ -155,27 +156,29 @@ $(document).scroll(function() {
 	}
 });
 
+// ACTIVATE ANIMATION IN VIEWPORT
+
 $(document).ready(function(){
-	$('#projects').viewportChecker({
+	$('.project-block').viewportChecker({
 		callbackFunction: function(elem, action){
 			setTimeout(function(){
 				$('.project-block').addClass('fadeInUp');
 				$( document ).ready(function() {
 					setTimeout (function() {
 						$('#fadeInUp-initial-1').addClass('fadeInUp-visible');
-					}, 1250)
-
-					setTimeout (function() {
-						$('#fadeInUp-initial-2').addClass('fadeInUp-visible');
 					}, 1500)
 
 					setTimeout (function() {
-						$('#fadeInUp-initial-3').addClass('fadeInUp-visible');
+						$('#fadeInUp-initial-2').addClass('fadeInUp-visible');
 					}, 1750)
 
 					setTimeout (function() {
-						$('#fadeInUp-initial-4').addClass('fadeInUp-visible');
+						$('#fadeInUp-initial-3').addClass('fadeInUp-visible');
 					}, 2000)
+
+					setTimeout (function() {
+						$('#fadeInUp-initial-4').addClass('fadeInUp-visible');
+					}, 2250)
 				});
 			});
 		},
