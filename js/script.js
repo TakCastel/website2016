@@ -77,55 +77,55 @@ $(document).ready(function(){
 					}
 
 					$('.html').percentPie({
-						width: 150,
+						width: 125,
 						trackColor: "#2e3546",
-						barColor: "#fff",
-						barWeight: 10,
+						barColor: "#e84225",
+						barWeight: 15,
 						endPercent: 1,
 						fps: 60
 					});
 
 					$('.css').percentPie({
-						width: 150,
+						width: 125,
 						trackColor: "#2e3546",
-						barColor: "#fff",
-						barWeight: 10,
+						barColor: "#25a6e8",
+						barWeight: 15,
 						endPercent: .90,
 						fps: 60
 					});
 
 					$('.javascript').percentPie({
-						width: 150,
+						width: 125,
 						trackColor: "#2e3546",
-						barColor: "#fff",
-						barWeight: 10,
+						barColor: "#e8d425",
+						barWeight: 15,
 						endPercent: .20,
 						fps: 60
 					});
 
-					$('.photoshop').percentPie({
-						width: 150,
+					$('.adobe').percentPie({
+						width: 125,
 						trackColor: "#2e3546",
-						barColor: "#fff",
-						barWeight: 10,
-						endPercent: .75,
+						barColor: "#e82525",
+						barWeight: 15,
+						endPercent: .25,
 						fps: 60
 					});
 
-					$('.illustrator').percentPie({
-						width: 150,
+					$('.office').percentPie({
+						width: 125,
 						trackColor: "#2e3546",
-						barColor: "#fff",
-						barWeight: 10,
-						endPercent: .66,
+						barColor: "#25e8ba",
+						barWeight: 15,
+						endPercent: .80,
 						fps: 60
 					});
 
 					$('.php').percentPie({
-						width: 150,
+						width: 125,
 						trackColor: "#2e3546",
-						barColor: "#fff",
-						barWeight: 10,
+						barColor: "#9025e8",
+						barWeight: 15,
 						endPercent: .33,
 						fps: 60
 					});
