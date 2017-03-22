@@ -12,7 +12,7 @@ $(document).ready(function(){
 							width: 125,
 							trackColor: "f2f3f4",
 							barColor: "#2e3546",
-							barWeight: 30,
+							barWeight:25,
 							startPercent: 0,
 							endPercent: 1,
 							fps: 60
@@ -80,7 +80,7 @@ $(document).ready(function(){
 						width: 125,
 						trackColor: "#2e3546",
 						barColor: "#e84225",
-						barWeight: 15,
+						barWeight:25,
 						endPercent: 1,
 						fps: 60
 					});
@@ -89,7 +89,7 @@ $(document).ready(function(){
 						width: 125,
 						trackColor: "#2e3546",
 						barColor: "#25a6e8",
-						barWeight: 15,
+						barWeight:25,
 						endPercent: .90,
 						fps: 60
 					});
@@ -98,7 +98,7 @@ $(document).ready(function(){
 						width: 125,
 						trackColor: "#2e3546",
 						barColor: "#e8d425",
-						barWeight: 15,
+						barWeight:25,
 						endPercent: .20,
 						fps: 60
 					});
@@ -107,7 +107,7 @@ $(document).ready(function(){
 						width: 125,
 						trackColor: "#2e3546",
 						barColor: "#e82525",
-						barWeight: 15,
+						barWeight:25,
 						endPercent: .25,
 						fps: 60
 					});
@@ -116,7 +116,7 @@ $(document).ready(function(){
 						width: 125,
 						trackColor: "#2e3546",
 						barColor: "#25e8ba",
-						barWeight: 15,
+						barWeight:25,
 						endPercent: .80,
 						fps: 60
 					});
@@ -125,7 +125,7 @@ $(document).ready(function(){
 						width: 125,
 						trackColor: "#2e3546",
 						barColor: "#9025e8",
-						barWeight: 15,
+						barWeight:25,
 						endPercent: .33,
 						fps: 60
 					});
